@@ -1,0 +1,388 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor,colortbl}
+\usepackage[margin=1.2in,a4paper]{geometry}
+\usepackage{natbib}
+\setcitestyle{notesep={: },aysep={},yysep={,},comma}
+\newcommand{\citeposs}[1]{\citeauthor{#1}'s \citeyearpar{#1}}
+\usepackage{amsmath}
+\usepackage{inconsolata}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=darkblue]{hyperref}  
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{booktabs}
+\usepackage[english]{babel}
+\usepackage{multirow}
+\usepackage[font=small]{caption}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{authblk}
+\usepackage{comment}
+\usepackage{setspace}
+\usepackage{chngpage}
+\usepackage{appendix}
+\usepackage{longtable}
+\setlength{\belowcaptionskip}{12pt plus 2pt minus 1pt}
+\usepackage{soul}
+\usepackage{todonotes}
+\usepackage{titling}
+\newcommand{\inpr}{forthcoming\xspace}
+\usepackage{breakurl}
+\definecolor{Gray}{gray}{0.85}
+%\usepackage[nolists,tablesfirst]{endfloat}
+\usepackage{lineno}
+
+
+\begin{document}
+\setlength{\droptitle}{-1em}
+%\linenumbers
+
+
+\title{Data appendix to ``Moving to suburbia? 
+Effects of residential mobility on community
+engagement''}%\thanks{Earlier versions of the
+  % paper were presented at the 6th
+  % RCC-CIS Summer Seminar on Sociological and Political Research,
+  % Harvard University, Cambridge (MA), August 4-9, 2013, and at the 3rd Annual General
+  % Conference of the European Political Science 
+  % Association (EPSA), Barcelona, June 20-22, 2013. Comments are 
+  % welcome.}}
+
+
+\author{Jaume Magre, Joan-Josep Vallbé, Mariona Tomàs}
+% Jaume Magre\thanks{\url{jmagre@ub.edu}}, Joan-Josep Vallbé\thanks{\url{vallbe@ub.edu}}, Mariona Tomàs\thanks{\url{marionatomas@ub.edu}}}
+% \affil{Department of Constitutional Law and Political Science\\
+%   University of Barcelona}
+\providecommand{\keywords}[1]{\textbf{Keywords---} #1}
+\date{}
+%\doublespacing
+
+\maketitle
+
+\appendix
+
+This document contains the result tables of the regression models fitted and
+and presented in our paper entitled ``Moving to suburbia? 
+Effects of residential mobility on community
+engagement'', published in XXXXXXXXX.
+
+\section{Effect of individual factors on civic engagement}\label{appA}
+
+\begin{scriptsize}
+% Table created by stargazer v.5.0 by Marek Hlavac, Harvard
+% University. E-mail: hlavac at fas.harvard.edu 
+% Date and time: Mon, Jul 14, 2014 - 01:39:20 PM
+\begin{longtable}{@{\extracolsep{5pt}}lcccc}
+%[!h] 
+
+\caption{OLS regression model of the C index of community engagement on
+  individual residential mobility.}\label{tab:residmob}\tabularnewline
+%\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+% & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+%\cline{2-5} 
+\toprule
+ &  &  \multicolumn{3}{c}{\it Components}\tabularnewline
+\cline{3-5}
+& Index & Identity & Participation & Knowledge \tabularnewline
+% & (1) & (2) & (3) & (4)\\ 
+\hline
+{\it Length of residence} [Ref. $\textless$ 2 years]\\
+ 2 to 5 years & 0.105 & 0.181 & 0.120 & 0.050 \\ 
+  & (0.075) & (0.169) & (0.097) & (0.098) \\ 
+ 6 to 10 years & 0.156$^{**}$ & 0.254 & 0.176$^{*}$ & 0.084 \\ 
+  & (0.074) & (0.167) & (0.096) & (0.097) \\ 
+ 11 to 15 years & 0.154$^{**}$ & 0.218 & 0.186$^{*}$ & 0.084 \\ 
+  & (0.075) & (0.169) & (0.097) & (0.098) \\ 
+ 16 to 20 years & 0.165$^{**}$ & 0.183 & 0.171$^{*}$ & 0.150 \\ 
+  & (0.075) & (0.171) & (0.098) & (0.099) \\ 
+ 20+ years & 0.212$^{***}$ & 0.231 & 0.252$^{***}$ & 0.156 \\ 
+  & (0.073) & (0.166) & (0.095) & (0.097) \\ 
+ Whole life & 0.230$^{***}$ & 0.336$^{**}$ & 0.255$^{***}$ & 0.148 \\ 
+  & (0.073) & (0.165) & (0.095) & (0.096) \\ 
+  {\it Age} & 0.0005 & 0.002$^{**}$ & $-$0.0003 & 0.0003 \\ 
+  & (0.0005) & (0.001) & (0.001) & (0.001) \\ 
+{\it City size} [Ref. < 10K]\\
+10K to 100K & $-$0.028$^{**}$ & $-$0.050$^{*}$ & 0.017 & $-$0.071$^{***}$ \\ 
+  & (0.012) & (0.027) & (0.015) & (0.016) \\ 
+100K to 500K & $-$0.012 & $-$0.012 & 0.008 & $-$0.037$^{**}$ \\ 
+  & (0.014) & (0.031) & (0.018) & (0.018) \\ 
+500K +  & $-$0.034$^{**}$ & $-$0.015 & 0.010 & $-$0.096$^{***}$ \\ 
+  & (0.014) & (0.032) & (0.018) & (0.019) \\ 
+{\it Education} [Ref. Less than elementary]\\
+Elementary & 0.068 & 0.213$^{*}$ & 0.009 & 0.065 \\ 
+  & (0.053) & (0.120) & (0.069) & (0.070) \\ 
+Middle & 0.030 & 0.066 & $-$0.001 & 0.048 \\ 
+  & (0.048) & (0.108) & (0.062) & (0.063) \\ 
+Junior High School & 0.046 & 0.056 & 0.016 & 0.078 \\ 
+  & (0.048) & (0.108) & (0.062) & (0.063) \\ 
+Senior High / Vocational & 0.061 & 0.038 & 0.058 & 0.076 \\ 
+  & (0.048) & (0.109) & (0.062) & (0.063) \\ 
+Undergraduate & 0.073 & $-$0.016 & 0.077 & 0.114$^{*}$ \\ 
+  & (0.050) & (0.112) & (0.064) & (0.065) \\ 
+Postgraduate & 0.041 & $-$0.047 & 0.042 & 0.085 \\ 
+  & (0.049) & (0.111) & (0.063) & (0.064) \\ 
+{\it No children at home (6 y.o. or less)} & $-$0.024$^{**}$ & $-$0.018 & $-$0.033$^{**}$ & $-$0.017 \\ 
+  & (0.012) & (0.026) & (0.015) & (0.015) \\ 
+{\it Activity} [Ref. Service employee]\\
+Liberal profession & 0.025 & $-$0.043 & 0.041 & 0.041 \\ 
+  & (0.024) & (0.055) & (0.032) & (0.032) \\ 
+Employer & 0.094$^{***}$ & 0.082 & 0.095$^{**}$ & 0.100$^{**}$ \\ 
+  & (0.035) & (0.080) & (0.046) & (0.047) \\ 
+Self-employed & 0.059$^{**}$ & 0.079 & 0.097$^{***}$ & 0.004 \\ 
+  & (0.023) & (0.052) & (0.030) & (0.030) \\ 
+Farmer & 0.050 & 0.130 & 0.179 & $-$0.140 \\ 
+  & (0.087) & (0.196) & (0.112) & (0.114) \\ 
+Middle-management & 0.028$^{*}$ & 0.028 & 0.050$^{**}$ & 0.003 \\ 
+  & (0.015) & (0.035) & (0.020) & (0.020) \\ 
+Worker & 0.032$^{*}$ & 0.028 & 0.063$^{***}$ & $-$0.003 \\ 
+  & (0.016) & (0.037) & (0.021) & (0.022) \\ 
+Homemaker & 0.044$^{**}$ & 0.105$^{**}$ & 0.063$^{**}$ & $-$0.009 \\ 
+  & (0.021) & (0.049) & (0.028) & (0.028) \\ 
+Retiree/Pensioner & 0.049$^{***}$ & 0.054 & 0.052$^{**}$ & 0.042$^{*}$ \\ 
+  & (0.019) & (0.042) & (0.024) & (0.024) \\ 
+Unemployed & $-$0.002 & $-$0.047 & 0.050$^{**}$ & $-$0.041$^{*}$ \\ 
+  & (0.017) & (0.039) & (0.023) & (0.023) \\ 
+Student & $-$0.007 & $-$0.027 & 0.031 & $-$0.040 \\ 
+  & (0.022) & (0.050) & (0.029) & (0.029) \\ 
+{\it Gender} Female & $-$0.012 & 0.013 & $-$0.010 & $-$0.027$^{**}$ \\ 
+  & (0.009) & (0.020) & (0.012) & (0.012) \\ 
+{\it Frequency discuss about politics} [Ref. Usually]\\
+Sometimes & $-$0.034$^{***}$ & 0.004 & $-$0.003 & $-$0.089$^{***}$ \\ 
+  & (0.010) & (0.023) & (0.013) & (0.014) \\ 
+Rarely & $-$0.045$^{***}$ & $-$0.004 & $-$0.021 & $-$0.095$^{***}$ \\ 
+  & (0.012) & (0.027) & (0.016) & (0.016) \\ 
+Never & $-$0.060$^{***}$ & 0.035 & $-$0.048$^{**}$ & $-$0.122$^{***}$ \\ 
+  & (0.015) & (0.034) & (0.019) & (0.020) \\ 
+{\it Most important elections} [Ref. Regional]\\
+National & $-$0.035$^{***}$ & $-$0.077$^{***}$ & $-$0.015 & $-$0.037$^{***}$ \\ 
+  & (0.011) & (0.024) & (0.014) & (0.014) \\ 
+Municipal & 0.057$^{***}$ & 0.093$^{***}$ & 0.042$^{**}$ & 0.057$^{***}$ \\ 
+  & (0.013) & (0.029) & (0.016) & (0.017) \\ 
+European & $-$0.003 & $-$0.144$^{***}$ & 0.034 & 0.025 \\ 
+  & (0.021) & (0.048) & (0.027) & (0.028) \\ 
+All equal & $-$0.041$^{**}$ & $-$0.067$^{*}$ & $-$0.045$^{**}$ & $-$0.023 \\ 
+  & (0.016) & (0.036) & (0.021) & (0.021) \\ 
+None & 0.041$^{*}$ & 0.071 & 0.069$^{**}$ & $-$0.006 \\ 
+  & (0.023) & (0.053) & (0.030) & (0.031) \\ 
+{\it Probability to vote next local elections} [0-10] & 0.007$^{***}$ & 0.010$^{***}$ & 0.007$^{***}$ & 0.006$^{***}$ \\ 
+  & (0.001) & (0.003) & (0.002) & (0.002) \\ 
+{\it External efficacy (Municipality)} [0-10] & 0.007$^{***}$ & 0.012$^{***}$ & 0.007$^{***}$ & 0.005$^{**}$ \\ 
+  & (0.001) & (0.003) & (0.002) & (0.002) \\ 
+  Constant & 0.075 & $-$0.156 & 0.142 & 0.113 \\ 
+  & (0.092) & (0.208) & (0.119) & (0.121) \\ 
+ \midrule
+Observations & 1,327 & 1,327 & 1,327 & 1,327 \\ 
+R$^{2}$ & 0.222 & 0.160 & 0.125 & 0.190 \\ 
+%Adjusted R$^{2}$ & 0.199 & 0.135 & 0.099 & 0.167 \\ 
+Residual Std. Error (df = 1288) & 0.150 & 0.338 & 0.194 & 0.197 \\ 
+%F Statistic (df = 38; 1288) & 9.687$^{***}$ & 6.442$^{***}$ & 4.838$^{***}$ & 7.973$^{***}$ \\ 
+\bottomrule
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05;
+  $^{***}$p$<$0.01} \\  
+%\end{tabular} 
+\end{longtable} 
+\end{scriptsize}
+
+\newpage
+\section{Effect of the interaction between individual mobility and
+ municipal population growth on community engagement}\label{appB}
+
+
+\begin{scriptsize}
+\begin{longtable}{lcccc}
+%[!htbp] 
+%\centering 
+\caption{Results of the OLS regression model of the index of community
+engagement on the type of community, with interactions for individual
+migration.}\label{tab:mod_hyp2}\tabularnewline
+%\tabularnewline
+
+%\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+%\toprule
+\toprule
+ & &  \multicolumn{3}{c}{\it Components} \tabularnewline
+\cline{3-5} 
+ & Index & Identity & Participation & Knowledge \tabularnewline
+% & (1) & (2) & (3) & (4)\\ 
+\midrule 
+{\it Population growth} [Ref. > 30\%]\\
+ 20 to 30\%  & $-$0.003 & $-$0.076 & 0.005 & 0.025 \\ 
+  & (0.034) & (0.078) & (0.044) & (0.045) \\ 
+ 10 to 20\% &  0.053$^{*}$ & $-$0.056 & 0.086$^{**}$ & 0.067$^{*}$ \\ 
+   & (0.030) & (0.069) & (0.039) & (0.040) \\ 
+ 5 to 10\%  & 0.007 & $-$0.086 & 0.042 & 0.013 \\ 
+   & (0.029) & (0.065) & (0.037) & (0.038) \\ 
+ 0 to 5\%  & 0.013 & $-$0.088 & 0.063$^{*}$ & 0.005 \\ 
+   & (0.028) & (0.064) & (0.036) & (0.037) \\ 
+ Decrease  & 0.006 & $-$0.100 & 0.015 & 0.049 \\ 
+   & (0.027) & (0.061) & (0.035) & (0.035) \\ 
+ Barcelona  & $-$0.033 & $-$0.075 & 0.026 & $-$0.081$^{**}$ \\ 
+   & (0.027) & (0.062) & (0.035) & (0.036) \\ 
+ {\it Migrant} [Yes]  & $-$0.099$^{***}$ & $-$0.196$^{***}$ & $-$0.088$^{**}$ & $-$0.062 \\ 
+ & (0.031) & (0.070) & (0.039) & (0.040) \\ 
+20 to 30\% x Migrant  & 0.018 & 0.064 & 0.006 & 0.010 \\ 
+   & (0.048) & (0.109) & (0.061) & (0.063) \\ 
+10 to 20\% x Migrant & $-$0.031 & 0.151 & $-$0.100$^{*}$ & $-$0.043 \\ 
+   & (0.040) & (0.092) & (0.052) & (0.053) \\ 
+5 to 10\% x Migrant  & $-$0.005 & 0.066 & $-$0.048 & 0.009 \\ 
+   & (0.040) & (0.090) & (0.051) & (0.052) \\ 
+0 to 5\% x Migrant  & 0.001 & 0.103 & $-$0.028 & $-$0.017 \\ 
+  & (0.041) & (0.094) & (0.053) & (0.054) \\ 
+Decrase x Migrant  & 0.061$^{*}$ & 0.187$^{**}$ & 0.070 & $-$0.013 \\ 
+   & (0.037) & (0.084) & (0.047) & (0.048) \\ 
+Barcelona x Migrant  & 0.105$^{**}$ & 0.060 & 0.123$^{**}$ & 0.107$^{*}$ \\ 
+   & (0.045) & (0.102) & (0.058) & (0.059) \\
+{\it Age}   & 0.0005 & 0.001 & $-$0.00004 & 0.001 \\ 
+    & (0.0004) & (0.001) & (0.001) & (0.001) \\ 
+{\it City size} [Ref. < 10K]\\
+10K to 100K   & $-$0.030$^{**}$ & $-$0.052$^{*}$ & 0.014 & $-$0.070$^{***}$ \\ 
+    & (0.012) & (0.028) & (0.016) & (0.016) \\ 
+100K to 500K   & $-$0.015 & $-$0.002 & 0.003 & $-$0.044$^{**}$ \\ 
+    & (0.015) & (0.034) & (0.019) & (0.020) \\ 
+  {\it Education} [Ref. Less than elementary]  &  &  &  &  \\ 
+%  &  &  &  &  &  \\ 
+   Elementary &   0.066 & 0.232$^{*}$ & 0.013 & 0.046 \\ 
+     & (0.053) & (0.121) & (0.068) & (0.070) \\ 
+   Middle school   & 0.035 & 0.091 & 0.009 & 0.036 \\ 
+     & (0.048) & (0.109) & (0.061) & (0.063) \\ 
+   Junior High &  0.049 & 0.081 & 0.021 & 0.065 \\ 
+     & (0.048) & (0.109) & (0.062) & (0.063) \\ 
+   Senior High &  0.069 & 0.073 & 0.071 & 0.065 \\ 
+     & (0.048) & (0.110) & (0.062) & (0.063) \\ 
+   Undergraduate & 0.080 & 0.020 & 0.090 & 0.099 \\ 
+     & (0.050) & (0.113) & (0.064) & (0.065) \\ 
+   Postgraduate & 0.045 & $-$0.010 & 0.049 & 0.067 \\ 
+     & (0.049) & (0.112) & (0.063) & (0.064) \\ 
+{\it No children at home (6 y.o. or less)}   & $-$0.029$^{**}$ & $-$0.029 & $-$0.038$^{***}$ & $-$0.019 \\ 
+    & (0.012) & (0.026) & (0.015) & (0.015) \\ 
+{\it Activity} [Ref. Service employee]\\
+Liberal profession   & 0.026 & $-$0.062 & 0.046 & 0.048 \\ 
+    & (0.024) & (0.056) & (0.031) & (0.032) \\ 
+Employer   & 0.103$^{***}$ & 0.089 & 0.108$^{**}$ & 0.104$^{**}$ \\ 
+  & (0.036) & (0.081) & (0.046) & (0.047) \\ 
+Self-employed   & 0.059$^{**}$ & 0.084 & 0.096$^{***}$ & 0.004 \\ 
+    & (0.023) & (0.053) & (0.030) & (0.030) \\ 
+Farmer   & 0.047 & 0.123 & 0.155 & $-$0.117 \\ 
+    & (0.087) & (0.199) & (0.112) & (0.115) \\ 
+Middle-management  & 0.027$^{*}$ & 0.023 & 0.048$^{**}$ & 0.004 \\ 
+   & (0.015) & (0.035) & (0.020) & (0.020) \\ 
+Worker   & 0.031$^{*}$ & 0.025 & 0.061$^{***}$ & $-$0.001 \\ 
+    & (0.016) & (0.037) & (0.021) & (0.022) \\ 
+Homemaker   & 0.040$^{*}$ & 0.102$^{**}$ & 0.058$^{**}$ & $-$0.012 \\ 
+    & (0.021) & (0.049) & (0.028) & (0.028) \\ 
+Retiree/Pensioner   & 0.048$^{***}$ & 0.056 & 0.050$^{**}$ & 0.041$^{*}$ \\ 
+    & (0.019) & (0.042) & (0.024) & (0.024) \\ 
+Unemployed   & $-$0.004 & $-$0.050 & 0.046$^{**}$ & $-$0.040$^{*}$ \\ 
+  & (0.017) & (0.040) & (0.022) & (0.023) \\ 
+Student   & $-$0.0002 & $-$0.033 & 0.040 & $-$0.031 \\ 
+    & (0.022) & (0.050) & (0.028) & (0.029) \\ 
+{\it Gender} [Female]    & $-$0.011 & 0.013 & $-$0.010 & $-$0.026$^{**}$ \\ 
+    & (0.009) & (0.021) & (0.012) & (0.012) \\ 
+{\it Frequency discuss about politics} [Ref. Usually]\\
+Sometimes   & $-$0.033$^{***}$ & 0.010 & $-$0.006 & $-$0.088$^{***}$ \\ 
+    & (0.010) & (0.024) & (0.013) & (0.014) \\ 
+Rarely   & $-$0.045$^{***}$ & 0.001 & $-$0.022 & $-$0.094$^{***}$ \\ 
+    & (0.012) & (0.028) & (0.016) & (0.016) \\ 
+Never   & $-$0.062$^{***}$ & 0.036 & $-$0.051$^{***}$ & $-$0.124$^{***}$ \\ 
+    & (0.015) & (0.034) & (0.019) & (0.020) \\ 
+{\it Most important elections} [Ref. Regional]\\
+National   & $-$0.038$^{***}$ & $-$0.086$^{***}$ & $-$0.017 & $-$0.038$^{***}$ \\ 
+    & (0.011) & (0.024) & (0.014) & (0.014) \\ 
+Municipal   & 0.055$^{***}$ & 0.092$^{***}$ & 0.037$^{**}$ & 0.057$^{***}$ \\ 
+    & (0.013) & (0.029) & (0.016) & (0.017) \\ 
+European   & 0.006 & $-$0.123$^{**}$ & 0.046$^{*}$ & 0.024 \\ 
+    & (0.021) & (0.048) & (0.027) & (0.028) \\ 
+All equal   & $-$0.041$^{**}$ & $-$0.068$^{*}$ & $-$0.046$^{**}$ & $-$0.021 \\ 
+    & (0.016) & (0.036) & (0.021) & (0.021) \\ 
+None   & 0.044$^{*}$ & 0.075 & 0.077$^{**}$ & $-$0.009 \\ 
+    & (0.023) & (0.053) & (0.030) & (0.031) \\ 
+{\it Probability to vote next local elections} [0-10]   & 0.007$^{***}$ & 0.011$^{***}$ & 0.007$^{***}$ & 0.006$^{***}$ \\ 
+    & (0.001) & (0.003) & (0.002) & (0.002) \\ 
+{\it External efficacy (Municipality)} [0-10]   & 0.007$^{***}$ & 0.012$^{***}$ & 0.007$^{***}$ & 0.005$^{**}$ \\ 
+    & (0.001) & (0.003) & (0.002) & (0.002) \\ 
+  Constant  & 0.292$^{***}$ & 0.246$^{*}$ & 0.357$^{***}$ & 0.239$^{***}$ \\ 
+ & (0.061) & (0.140) & (0.079) & (0.081) \\ 
+ \midrule %[-1.8ex] 
+Observations & 1,327 & 1,327 & 1,327 & 1,327 \\ 
+R$^{2}$ & 0.228 & 0.152 & 0.142 & 0.196 \\ 
+%Adjusted R$^{2}$ & 0.055 & 0.201 & 0.123 & 0.113 & 0.169 \\ 
+Residual Std. Error (df = 1282)  & 0.149 & 0.341 & 0.192 & 0.197 \\ 
+%F Statistic & 8.163$^{***}$ (df = 13; 1586) & 8.587$^{***}$ (df = 44; 1282) & 5.221$^{***}$ (df = 44; 1282) & 4.837$^{***}$ (df = 44; 1282) & 7.125$^{***}$ (df = 44; 1282) \\ 
+\bottomrule %[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+%\end{tabular} 
+%\end{table} 
+\end{longtable}
+\end{scriptsize}
+
+\newpage
+\section{Effect of community engagement on voting}
+% Table created by stargazer v.5.0 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Jul 21, 2014 - 02:39:03 PM
+\begin{table}[!h] \centering 
+\scriptsize
+  \caption{Results of the logistic regression model of voting in local
+   elections on the index of community engagement.} 
+\label{tab:logistic_voting} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{4}{c}{Voted in last municipal elections (==1)} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+Index of C. Engagement & 1.805$^{***}$ &  &  &  \\ 
+  & (0.456) &  &  &  \\ 
+Identity &  & $-$0.005 &  &  \\ 
+  &  & (0.202) &  &  \\ 
+Participation &  &  & 1.353$^{***}$ &  \\ 
+  &  &  & (0.353) &  \\ 
+Knowledge &  &  &  & 1.505$^{***}$ \\ 
+  &  &  &  & (0.382) \\ 
+{\it Age} & 0.058$^{***}$ & 0.061$^{***}$ & 0.061$^{***}$ & 0.058$^{***}$ \\ 
+  & (0.005) & (0.005) & (0.005) & (0.005) \\ 
+{\it City size} [Ref. < 10K]\\
+10K to 100K & $-$0.284 & $-$0.312 & $-$0.376$^{*}$ & $-$0.208 \\ 
+  & (0.206) & (0.204) & (0.206) & (0.207) \\ 
+100K to 500K & $-$0.293 & $-$0.297 & $-$0.348 & $-$0.234 \\ 
+  & (0.231) & (0.228) & (0.231) & (0.230) \\ 
+500K + & $-$0.630$^{***}$ & $-$0.629$^{***}$ & $-$0.707$^{***}$ & $-$0.501$^{**}$ \\ 
+  & (0.231) & (0.229) & (0.232) & (0.232) \\ 
+{\it Education} [Ref. Less than elementary]\\
+Elementary & 0.229 & 0.346 & 0.308 & 0.242 \\ 
+  & (0.909) & (0.906) & (0.908) & (0.906) \\ 
+Middle & $-$0.044 & 0.042 & 0.019 & $-$0.066 \\ 
+  & (0.802) & (0.798) & (0.802) & (0.797) \\ 
+Junior High School & 0.657 & 0.757 & 0.726 & 0.587 \\ 
+  & (0.807) & (0.803) & (0.807) & (0.803) \\ 
+Senior High /Vocational & 0.623 & 0.753 & 0.695 & 0.534 \\ 
+  & (0.808) & (0.803) & (0.807) & (0.803) \\ 
+Undergraduate & 1.608$^{*}$ & 1.738$^{**}$ & 1.676$^{**}$ & 1.510$^{*}$ \\ 
+  & (0.851) & (0.846) & (0.850) & (0.847) \\ 
+Postgraduate & 1.318 & 1.400$^{*}$ & 1.377$^{*}$ & 1.182 \\ 
+  & (0.819) & (0.815) & (0.819) & (0.815) \\ 
+  Constant & $-$2.146$^{**}$ & $-$1.673$^{*}$ & $-$2.257$^{***}$ & $-$1.789$^{**}$ \\ 
+  & (0.867) & (0.854) & (0.871) & (0.854) \\ 
+ \hline \\[-1.8ex] 
+Observations & 1,563 & 1,563 & 1,563 & 1,563 \\ 
+Log Likelihood & $-$715.088 & $-$725.330 & $-$716.945 & $-$714.093 \\ 
+Akaike Inf. Crit. & 1,454.176 & 1,474.661 & 1,457.891 & 1,452.186 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+%\newpage
+
+
+
+\end{document}
